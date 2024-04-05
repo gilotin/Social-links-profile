@@ -1,4 +1,23 @@
+body {
+
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+}
+
+
+/* Buttons */
+
+.btn {
+    /* test */
+    border-radius: 6px;
+    border: 1px solid white;
+    color: white;
+    padding: .5rem;
+}
+
 /* Footer */
+
 
 .attribution {
     font-size: 11px;
