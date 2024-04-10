@@ -1,27 +1,104 @@
-body {
+:root {
 
-    background-color: black;
-    color: white;
+    --btn-grey: hsl(0, 0%, 20%);
+    --DarkGrey: hsl(0, 0%, 12%);
+    --green: hsl(75, 94%, 57%);
+    --Grey: hsl(0, 0%, 20%);
+    --OffBlack: hsl(0, 0%, 8%);
+    --White: hsl(0, 0%, 100%);
+
+    font-size: 16px;
+}
+
+
+body {
+    align-items: center;
+    background-color: var(--OffBlack);
+    color: var(--White);
+    display: flex;
+    flex-direction: column;
     font-family: 'Inter', sans-serif;
+    height: 100vh;
+    justify-content: center;
+}
+
+.user {
+    align-content: center;
+    background-color: var(--DarkGrey);
+    border-radius: .5rem;
+    border: 1px solid var(--DarkGrey);
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+    justify-content: center;
+    max-height: fit-content;
+    max-width: 240px;
+    max-width: 280px;
+    padding: 2rem;
+    text-align: center;
+    width: 280px;
 }
 
 
 /* Buttons */
 
 .btn {
-    /* test */
-    border-radius: 6px;
-    border: 1px solid white;
+    background-color: var(--btn-grey);
+    border-radius: .5rem;
+    border: 1px solid var(--btn-grey);
     color: white;
-    padding: .5rem;
+    font-weight: 600;
+    padding: .75rem;
 }
+
+.btn:hover {
+    background-color: var(--green);
+    color: var(--OffBlack);
+}
+
+/* User picture */
+
+.user__picture {
+    margin: .5rem;
+}
+
+.user__picture img {
+    border-radius: 50%;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+/* User info */
+
+.user__name {
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.user__location {
+    color: var(--green);
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.user_description {
+    font-size: .9rem;
+    margin-bottom: .8rem;
+
+}
+
 
 /* Footer */
 
 
 .attribution {
-    font-size: 11px;
+    align-items: absolute;
+    bottom: 3px;
+    font-size: .5rem;
+    left: 0;
+    position: absolute;
     text-align: center;
+    width: 100%;
 }
 
 .attribution a {
