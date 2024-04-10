@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 -   Solution URL: [GitHub link to the code](https://github.com/gilotin/Social-links-profile)
--   Live Site URL: [live site uploaded in Vercel](https://your-live-site-url.com)
+-   Live Site URL: [live site uploaded in Vercel](https://social-links-profile-v2.vercel.app/)
 
 ## My process
 
