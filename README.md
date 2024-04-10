@@ -39,8 +39,8 @@ Users should be able to:
 1. Analyzing the task.
 2. Structure the HTML and naming the classes.
 3. Adding external lins (in needed).
-4. Creating style.css,
-   5.Testing and fixing the bugs.
+4. Creating style.css.
+5. Testing and fixing the bugs.
 
 ### Built with
 
